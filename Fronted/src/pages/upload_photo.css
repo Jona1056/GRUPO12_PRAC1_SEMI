@@ -1,0 +1,117 @@
+.home-container1 {
+ 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .upload-form {
+    width: 40%;
+  }
+  
+  .upload-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .upload-form label {
+    margin-bottom: 10px;
+  }
+  
+  .upload-form input,
+  .upload-form select {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  /* Estilos para la lista desplegable */
+  .upload-form select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .upload-form select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Estilos para el botón de subir imagen */
+  .upload-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-form button:hover {
+    background-color: #0056b3;
+  }
+  .button_back:hover {
+    background-color: #0056b3;
+  }
+    .button_back {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+  .upload-form select {
+    appearance: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+    width: 100%; /* Ancho completo */
+  }
+  
+  .upload-form select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff; /* Efecto de sombra al enfocar */
+  }
+  
+  /* Estilos adicionales para el botón de subir imagen */
+  .upload-form button {
+    padding: 12px 24px; /* Aumentar el padding para hacer el botón más grande */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Tamaño de fuente */
+    width: 100%; /* Ancho completo */
+    margin-top: 20px; /* Espacio entre el botón y la lista desplegable */
+  }
+  
+  .upload-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  

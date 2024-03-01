@@ -1,0 +1,67 @@
+body {
+  padding: 20px;
+  align-items: center;
+  height: auto;
+  margin: 0; /* Eliminamos el margen predeterminado del body */
+  background: linear-gradient(to right, #ffffff, #87ceeb);
+}
+
+.login-box {
+  background: linear-gradient(to bottom, #ffffff, #87ceeb);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  margin-bottom: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px; /* Anchura fija del formulario */
+}
+.login-box2 {
+  background: linear-gradient(to bottom, #ffffff, #87ceeb);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 30px 100px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px; /* Anchura fija del formulario */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 410px; /* Ajuste para que los campos de entrada abarquen todo el ancho del contenedor */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+}
+
+.login-button {
+  width: 100%; /* Ajuste para que el botón abarque todo el ancho del contenedor */
+  padding: 10px;
+  background-color: #87ceeb; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #6495ed; /* Cambio de color de fondo al pasar el ratón sobre el botón */
+}
+
+.text-muted {
+  display: block;
+  margin-top: 10px; /* Ajuste para agregar espacio entre el botón y el texto inferior */
+}

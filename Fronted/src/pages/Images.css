@@ -1,0 +1,57 @@
+.home-container2 {
+   
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+  }
+  p {
+  
+    color: #4e89ae; /* Color fuerte que combina con celeste */
+    font-family: Arial, sans-serif; /* Otro tipo de letra */
+    font-weight: bold; /* Negrita */
+    font-size: 18px; /* Tamaño de fuente */
+  }
+  .title{
+    margin-left: 340px;
+    font-size:60px;
+  }
+  .user-info {
+    margin-top:-10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  button {
+    margin-right:10px;
+  }
+  .carousel-container {
+
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Espacio entre los datos del usuario y el carrusel */
+    overflow-x: auto; /* Agregar scroll horizontal al contenedor */
+    padding: 0 20px; /* Agregar padding horizontal */
+  }
+  
+  .carousel {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    scroll-snap-type: x mandatory; /* Permite que las imágenes se ajusten al contenedor */
+  }
+  
+  .carousel-image {
+    flex: 0 0 auto; /* Evita que las imágenes se expandan */
+    width: 300px; /* Ancho de cada imagen */
+    height: auto; /* Altura ajustada automáticamente */
+    margin-right: 10px; /* Espacio entre las imágenes */
+    scroll-snap-align: start; /* Alinea cada imagen con el inicio del contenedor */
+  }
+  

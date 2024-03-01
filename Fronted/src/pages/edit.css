@@ -1,0 +1,81 @@
+.edit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+.button_change{
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+  .edit-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .image-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-container {
+    margin-bottom: 10px; /* Espacio entre la imagen y el botón */
+  }
+  
+  .form-container {
+    margin-left: 20px; /* Espacio entre la imagen y el formulario */
+  }
+  
+  .edit-image-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px; /* Espacio entre los botones */
+  }
+  
+  .edit-image-button1:hover {
+    background-color: #0056b3;
+  }
+  .edit-image-button1 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-image-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .img-container img {
+    display:flex;
+    width: 300px; /* Tamaño deseado para la imagen */
+    height: 300px; /* Tamaño deseado para la imagen */
+  }
+
+  .upload-input {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  /* Estilos adicionales al pasar el mouse sobre el botón */
+  .upload-input:hover {
+    background-color: #0056b3;
+  }
