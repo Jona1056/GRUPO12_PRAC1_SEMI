@@ -6,6 +6,8 @@
 |:----------------:|:------------:|
 |Kemel Efrain Josue Ruano Jeronimo | 202006373 |
 |Jonatan Leonel Garcia Arana | 202000424 |
+|Estephanie Edelweiss Lemus Herrera | 201603064 |
+|Eduardo Isaí Ajsivinac Xico | 201503584 |
 
 ## Configuraciones realizadas
 
