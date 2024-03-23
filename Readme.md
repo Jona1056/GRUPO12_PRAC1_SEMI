@@ -32,8 +32,6 @@ Usuario S3 y Politicas
 ![user3](./Images/S3.PNG)
 
 
-### EC2 Creadas
-![ec2create](./Images/insec2.jpeg)
 
 ### Base de datos
 ![base](./Images/Base.jpeg)
