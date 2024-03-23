@@ -36,8 +36,7 @@ Usuario S3 y Politicas
 ### Base de datos
 ![base](./Images/Base.jpeg)
 
-### Balanceador
-![balance](./Images/Balance.jpeg)
+
 
 ### Bucket de Imagenes
 ![bucket](./Images/bucketimage.PNG)
